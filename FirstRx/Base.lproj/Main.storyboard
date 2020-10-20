@@ -224,6 +224,9 @@
                                 <state key="normal" title="LOGIN">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="clickLogin:" destination="ZRT-ct-q8N" eventType="touchUpInside" id="unX-6h-kb6"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Invalid" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NjZ-nk-mNw">
                                 <rect key="frame" x="40" y="523" width="334" height="17"/>
@@ -278,7 +281,48 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rXP-pc-X3m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4142" y="913"/>
+            <point key="canvasLocation" x="4159" y="913"/>
+        </scene>
+        <!--Profile View Controller-->
+        <scene sceneID="bIj-il-x2Q">
+            <objects>
+                <viewController storyboardIdentifier="profile_vc" useStoryboardIdentifierAsRestorationIdentifier="YES" id="2xn-qZ-7F6" customClass="ProfileViewController" customModule="FirstRx" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UjV-0o-Vqh">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vua-2x-ND5">
+                                <rect key="frame" x="107" y="94" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="1BR-LX-6Ni"/>
+                                    <constraint firstAttribute="height" constant="200" id="mNp-YU-HES"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KqQ-vO-RqE">
+                                <rect key="frame" x="100" y="324" width="214" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="7ka-uL-k6p"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7ka-uL-k6p" firstAttribute="trailing" secondItem="KqQ-vO-RqE" secondAttribute="trailing" constant="100" id="Mfa-nP-PMo"/>
+                            <constraint firstItem="KqQ-vO-RqE" firstAttribute="leading" secondItem="7ka-uL-k6p" secondAttribute="leading" constant="100" id="OAs-i1-j3a"/>
+                            <constraint firstItem="vua-2x-ND5" firstAttribute="top" secondItem="7ka-uL-k6p" secondAttribute="top" constant="50" id="m1D-Te-jri"/>
+                            <constraint firstItem="KqQ-vO-RqE" firstAttribute="top" secondItem="vua-2x-ND5" secondAttribute="bottom" constant="30" id="mxP-tC-VNn"/>
+                            <constraint firstItem="vua-2x-ND5" firstAttribute="centerX" secondItem="7ka-uL-k6p" secondAttribute="centerX" id="pee-tS-rEC"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="vua-2x-ND5" id="AEv-Zh-Bgy"/>
+                        <outlet property="lbName" destination="KqQ-vO-RqE" id="6Cc-U2-F83"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SeE-dk-QVT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4140.579710144928" y="1597.7678571428571"/>
         </scene>
         <!--Item-->
         <scene sceneID="edB-hT-Qot">

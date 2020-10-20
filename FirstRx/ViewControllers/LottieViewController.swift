@@ -91,7 +91,11 @@ class LottieViewController: UIViewController {
         }.disposed(by: disposeBag)
     }
     
-
+    @IBAction func clickLogin(_ sender: Any) {
+        let vc = UIStoryboard.init(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "profile_vc") as? ProfileViewController
+        self.present(vc!, animated: true, completion: nil)
+    }
+    
 }
 
 //MARK: - subscribe to variable to switch message content

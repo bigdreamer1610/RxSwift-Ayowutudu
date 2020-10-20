@@ -16,6 +16,8 @@
 		73105038253D83AD0077F085 /* OfflineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73105037253D83AD0077F085 /* OfflineViewController.swift */; };
 		7310B602253E8A4A00B28BA3 /* ForthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7310B601253E8A4A00B28BA3 /* ForthViewController.swift */; };
 		7310B608253E994000B28BA3 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7310B607253E994000B28BA3 /* LoginViewModel.swift */; };
+		7310B641253EEEA900B28BA3 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7310B640253EEEA900B28BA3 /* ProfileViewController.swift */; };
+		7310B646253EEEE500B28BA3 /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7310B645253EEEE500B28BA3 /* ProfileModel.swift */; };
 		731D7B8F253DA50A00918998 /* 36222-couple.json in Resources */ = {isa = PBXBuildFile; fileRef = 731D7B8E253DA50A00918998 /* 36222-couple.json */; };
 		7340DCF0253D929800F485C2 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7340DCEF253D929800F485C2 /* BaseViewController.swift */; };
 		7340DD0C253D9D1000F485C2 /* LottieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7340DD0B253D9D1000F485C2 /* LottieViewController.swift */; };
@@ -70,6 +72,8 @@
 		73105037253D83AD0077F085 /* OfflineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineViewController.swift; sourceTree = "<group>"; };
 		7310B601253E8A4A00B28BA3 /* ForthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForthViewController.swift; sourceTree = "<group>"; };
 		7310B607253E994000B28BA3 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		7310B640253EEEA900B28BA3 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		7310B645253EEEE500B28BA3 /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
 		731D7B8E253DA50A00918998 /* 36222-couple.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "36222-couple.json"; sourceTree = "<group>"; };
 		7340DCEF253D929800F485C2 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		7340DD0B253D9D1000F485C2 /* LottieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieViewController.swift; sourceTree = "<group>"; };
@@ -149,6 +153,7 @@
 				73105010253D683B0077F085 /* SongModel.swift */,
 				73105015253D69B50077F085 /* ImageViewMdel.swift */,
 				7310B607253E994000B28BA3 /* LoginViewModel.swift */,
+				7310B645253EEEE500B28BA3 /* ProfileModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -161,6 +166,7 @@
 				73105037253D83AD0077F085 /* OfflineViewController.swift */,
 				7340DD0B253D9D1000F485C2 /* LottieViewController.swift */,
 				7310B601253E8A4A00B28BA3 /* ForthViewController.swift */,
+				7310B640253EEEA900B28BA3 /* ProfileViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -526,6 +532,7 @@
 				73105016253D69B50077F085 /* ImageViewMdel.swift in Sources */,
 				73C48FD5253949EC006565F8 /* SearchBar.swift in Sources */,
 				73105033253D80550077F085 /* NetworkManager.swift in Sources */,
+				7310B641253EEEA900B28BA3 /* ProfileViewController.swift in Sources */,
 				7340DCF0253D929800F485C2 /* BaseViewController.swift in Sources */,
 				73C48F70253936CD006565F8 /* ViewController.swift in Sources */,
 				73C48FAE25393A0B006565F8 /* BaseTBCell.swift in Sources */,
@@ -538,6 +545,7 @@
 				7310B602253E8A4A00B28BA3 /* ForthViewController.swift in Sources */,
 				73105038253D83AD0077F085 /* OfflineViewController.swift in Sources */,
 				73C48FA4253939BD006565F8 /* MemberCell.swift in Sources */,
+				7310B646253EEEE500B28BA3 /* ProfileModel.swift in Sources */,
 				73F0EBC72539A6CB0096A264 /* AppRouter.swift in Sources */,
 				73F0EBBF2539A6B70096A264 /* Constants.swift in Sources */,
 				7340DD0C253D9D1000F485C2 /* LottieViewController.swift in Sources */,
